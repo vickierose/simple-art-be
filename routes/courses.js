@@ -21,7 +21,10 @@ router.get('/', async (req, res) => {
           description_full: doc.data().description_full,
           duration: doc.data().duration,
           periodicity: doc.data().periodicity,
+          level: doc.data().level,
           groups: doc.data().groups,
+          full_img_url: doc.data().img_full,
+          thumbnail_img_url: doc.data().img_th,
           id: doc.id
         })
         result.push(course)

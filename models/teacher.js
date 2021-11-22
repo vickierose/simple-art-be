@@ -5,7 +5,8 @@ class Teacher {
     last_name,
     courses,
     education,
-    about
+    about,
+    photo
   }){
     this.id = id
     this.first_name = first_name
@@ -13,6 +14,7 @@ class Teacher {
     this.courses = courses
     this.education = education
     this.about = about
+    this.photo = photo
   }
 }
 

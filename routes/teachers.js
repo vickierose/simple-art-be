@@ -19,6 +19,7 @@ router.get('/', async (req, res) => {
           courses: doc.data().courses,
           education: doc.data().education,
           about: doc.data().about,
+          photo: doc.data().photo,
           id: doc.id
         })
         result.push(course)
