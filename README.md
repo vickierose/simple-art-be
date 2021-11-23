@@ -12,9 +12,11 @@ __To make project work you need `firebaseAccountKey.json` file. Ask owner to rec
 ## Endpoints
 Base url for local running is `http://localhost:5000`
 
-###### /courses
+#### /courses
 __Request type:__ GET
+
 __Description:__ returns list of courses with all needed data
+
 __Sample response:__
 ```
 [{
@@ -44,9 +46,11 @@ __Sample response:__
 }]
 ```
 
-###### /courses/new-course
+#### /courses/new-course
 __Request type:__ POST
+
 __Description:__ accepts course data to add it to database
+
 __Sample request body:__
 ```
 {
@@ -75,9 +79,11 @@ __Sample request body:__
 }
 ```
 
-###### /teachers
+#### /teachers
 __Request type:__ GET
+
 __Description:__ returns list of teachers with all needed data
+
 __Sample response:__
 ```
 [{
@@ -94,9 +100,11 @@ __Sample response:__
 }]
 ```
 
-###### /form/apply
+#### /form/apply
 __Request type:__ POST
+
 __Description:__ accepts data for course application
+
 __Sample request body:__
 ```
 {
@@ -108,9 +116,11 @@ __Sample request body:__
 }
 ```
 
-###### /form/subscribe
+#### /form/subscribe
 __Request type:__ POST
+
 __Description:__ accepts data for subscribing to newsletter
+
 __Sample request body:__
 ```
 {
