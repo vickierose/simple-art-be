@@ -36,6 +36,17 @@ router.get('/', async (req, res) => {
   }
 })
 
+router.post('/new-course', async(req, res) => {
+  try {
+    const data = req.body;
+    console.log("new course data", data)
+    await db.collection('courses').doc().set(data);
+    res.send('Record saved successfuly');
+  } catch (error) {
+    res.status(400).send(error.message);
+  }
+})
+
 module.exports = {
   routes: router
 }
