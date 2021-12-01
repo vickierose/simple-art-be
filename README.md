@@ -42,7 +42,9 @@ __Sample response:__
     "visualising emotions of anime character",
     "creating anime-style scenes: home, fantasy, nature",
     "at the end of course you will have at least 3 finished art works and certificate"
-  ]
+  ],
+  "thumbnail_img_url": "https://firebasestorage.googleapis.com/v0/b/simple-art-19399.appspot.com/o/courses%2Fan_t.png?alt=media&token=c8960199-4bcb-4652-b15f-44bfe7bcd3d8",
+  "full_img_url": "https://firebasestorage.googleapis.com/v0/b/simple-art-19399.appspot.com/o/courses%2Fan_f.png?alt=media&token=d76f0def-c194-4117-b32a-ba93a89d9dd4"
 }]
 ```
 

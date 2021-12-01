@@ -23,8 +23,8 @@ router.get('/', async (req, res) => {
           periodicity: doc.data().periodicity,
           level: doc.data().level,
           groups: doc.data().groups,
-          full_img_url: doc.data().img_full,
-          thumbnail_img_url: doc.data().img_th,
+          full_img_url: doc.data().full_img_url,
+          thumbnail_img_url: doc.data().thumbnail_img_url,
           id: doc.id
         })
         result.push(course)
